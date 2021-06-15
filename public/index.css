@@ -1,0 +1,33 @@
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+#lista{
+    float: left;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+  }
+
+#formulario{
+    float:right;
+}
+#iconodolar{
+    width: 20px;
+    height: 20px;
+}
+
+.formulario button{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
